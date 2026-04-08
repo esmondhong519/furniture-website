@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>URBAN OAK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img/logo.jpg" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><img src="img/user/user-solid-2.svg" class="user-img" onclick="toggleMenu()"></i></li>
+
+            </ul>
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="img/user/user1.webp" alt="">
+                        <h3>James Aldrino</h3>
+                    </div>
+                    <hr>
+                    <a href="myaccount.html" class="sub-menu-link">
+                        <i class="fa-solid fa-user"></i>
+                        <p>My Account</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <p>Help</p>
+                        <span>></span>
+                    </a>
+                    <a href="login.html" target="_blank" class="sub-menu-link">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <p>Log In</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <p>Log Out</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="page-header" class="blog-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE. We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-regular fa-map"></i>
+                    <p>1, Jln Taylors, 47500 Subang Jaya, Selangor</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>contact@urbanoak.com</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-phone"></i>
+                    <p>03-5629 500</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>10:00 AM - 10:00 PM, MON - SAT</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.119435096459!2d101.61429007548037!3d3.0627230969130195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c5f9450eaf9%3A0xe4c38bd5f7d440b1!2sTaylor&#39;s%20University%20Lakeside%20Campus!5e0!3m2!1sen!2smy!4v1720150068988!5m2!1sen!2smy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/user/p1.png" alt="">
+                <p><span>Jonas Chin</span> Chief Executive Officer <br> Phone: + 000 123 000 44 55 <br>Email:
+                    jonas@urbanoak.com</p>
+            </div>
+            <div>
+                <img src="img/user/p1.png" alt="">
+                <p><span>Leyna </span> Chief Operating Officer <br> Phone: + 000 123 000 44 55 <br>Email:
+                    leyna@urbanoak.com</p>
+            </div>
+            <div>
+                <img src="img/user/p1.png" alt="">
+                <p><span>Zhi Ying</span> Chief Financial Officer <br> Phone: + 000 123 000 44 55 <br>Email:
+                    zhiying@urbanoak.com</p>
+            </div>
+            <div>
+                <img src="img/user/p1.png" alt="">
+                <p><span>Ee Ge</span> Chief Information Officer <br> Phone: + 000 123 000 44 55 <br>Email:
+                    eege@urbanoak.com</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign up for Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 1, Jln Taylors, 47500 Subang Jaya, Selangor </p>
+            <p><strong>Phone: </strong> (60+) 010-3603233 / 03-5629 5000 </p>
+            <p><strong>Hours: </strong> 10:00 AM - 10:00 PM, MON - SAT</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                    <i class="fa-brands fa-square-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#"> About Us </a>
+            <a href="#"> Delivery Information </a>
+            <a href="#"> Privacy Policy </a>
+            <a href="#"> Terms & Conditions </a>
+            <a href="#"> Contact Us </a>
+        </div>
+
+        <div class="col">
+            <h4>Customer Service</h4>
+            <a href="#"> Our Services </a>
+            <a href="#"> Return Policy </a>
+            <a href="#"> Track your order </a>
+            <a href="#"> Product buying guides </a>
+            <a href="#"> Spare Parts </a>
+            <a href="#"> Product Guarantees </a>
+            <a href="#"> Share your feedback </a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/install/apple1.png" alt="">
+                <img src="img/install/google.png" alt="">
+            </div>
+
+            <div class="payment">
+                <p>Secured Payment Gateways</p>
+                <i class="fa-brands fa-cc-visa">
+                    <i class="fa-brands fa-cc-mastercard">
+                        <i class="fa-brands fa-cc-paypal"></i></i></i>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024 (URBAN OAK). All Rights Reserved.</p>
+        </div>
+    </footer>
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+
+</html>
